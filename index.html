@@ -419,16 +419,18 @@
         </div>
         <div class="footer-subscription">
           <form>
-            <label class="footer-title" for="subscription_email"
+            <label class="footer-title" for="subscription-email"
               >Subscribe</label
             >
             <div class="footer-form-wrap">
-              <input
-                type="email"
-                placeholder="Email"
-                name="subscription_email"
-                id="subscription_email"
-              />
+              <label class="form-label">
+                <input
+                  type="email"
+                  placeholder="E-mail"
+                  name="subscription-email"
+                  id="subscription-email"
+                />
+              </label>
               <button type="submit" class="button">
                 Subscribe
                 <svg class="check-icon" width="24" height="24">
@@ -450,29 +452,29 @@
         <p class="form-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="form-field">
-            <label class="form-label" for="user_name">Name </label>
+            <label class="form-label" for="user-name">Name </label>
             <div class="input-wrap">
               <input
                 type="text"
                 class="form-input"
                 required
-                name="user_name"
-                id="user_name"
+                name="user-name"
+                id="user-name"
               />
-              <svg class="input-icon" width="18" height="18">
+              <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
             </div>
           </div>
           <div class="form-field">
-            <label class="form-label" for="user_phone">Phone </label>
+            <label class="form-label" for="user-phone">Phone </label>
             <div class="input-wrap">
               <input
                 type="tel"
                 class="form-input"
                 required
-                name="user_phone"
-                id="user_phone"
+                name="user-phone"
+                id="user-phone"
               />
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
@@ -480,14 +482,14 @@
             </div>
           </div>
           <div class="form-field">
-            <label class="form-label" for="user_mail">Email </label>
+            <label class="form-label" for="user-mail">Email </label>
             <div class="input-wrap">
               <input
                 type="email"
                 class="form-input"
                 required
-                name="user_mail"
-                id="user_mail"
+                name="user-mail"
+                id="user-mail"
               />
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
@@ -495,10 +497,10 @@
             </div>
           </div>
           <div class="form-field">
-            <label class="form-label" for="user_comment">Comment </label>
+            <label class="form-label" for="user-comment">Comment </label>
             <textarea
-              name="user_comment"
-              id="user_comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
               class="form-textarea"
             ></textarea>
@@ -506,13 +508,13 @@
           <div class="form-field">
             <input
               type="checkbox"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               class="form-checkbox visually-hidden"
               value="true"
             />
-            <label for="policy" class="form-label check-text">
-              <span
+            <label for="user-privacy" class="form-label check-text">
+              <span class="form-checkbox"
                 ><svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg></span
               >I accept the terms and conditions of the
