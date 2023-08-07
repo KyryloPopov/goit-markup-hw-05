@@ -457,12 +457,12 @@ img {
   display: block;
 }
 
-.footer-form-wrap {
+.footer-form {
   display: flex;
   gap: 24px;
 }
 
-.footer-subscription input {
+.footer-subscription .form-input {
   padding-left: 16px;
   width: 264px;
   height: 40px;
