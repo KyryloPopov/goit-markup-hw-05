@@ -768,7 +768,7 @@ img {
 }
 
 .form-label {
-  display: inline-block;
+  display: block;
   margin-bottom: 4px;
   font-size: 12px;
   font-style: normal;
@@ -812,6 +812,10 @@ img {
   fill: var(--primary-brand-color);
 }
 
+.form-field-comment {
+  margin-bottom: 16px;
+}
+
 .form-textarea {
   padding: 8px 16px;
   width: 100%;
@@ -843,8 +847,7 @@ img {
   border-color: var(--primary-brand-color);
 }
 
-.check-text {
-  margin-top: 8px;
+.form-field-checkbox {
   margin-bottom: 24px;
 }
 
