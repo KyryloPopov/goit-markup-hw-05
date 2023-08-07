@@ -270,7 +270,7 @@
           </p>
         </div>
         <div class="footer-social">
-          <p class="footer-social-title">Social media</p>
+          <p class="footer-title">Social media</p>
           <ul class="list">
             <li class="social-link">
               <a class="footer-link" href="">
@@ -302,16 +302,25 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form">
-          <p class="footer-title">Subscribe</p>
+        <div class="footer-subscription">
           <form>
-            <input type="email" placeholder="Email" />
-            <button type="submit" class="button">
-              Subscribe
-              <svg class="check-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
+            <label class="footer-title" for="subscription_email"
+              >Subscribe</label
+            >
+            <div class="footer-form-wrap">
+              <input
+                type="email"
+                placeholder="Email"
+                name="subscription_email"
+                id="subscription_email"
+              />
+              <button type="submit" class="button">
+                Subscribe
+                <svg class="check-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
